@@ -1,0 +1,217 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.Mainpage{
+    width: 100vw;
+    height: auto;
+    
+   
+}
+.container{
+    margin: 0vh 0 0 17vw;
+    background-color: #F5F5F5;
+    width: 83vw;
+    height: 170vh;
+    border-top: 1px solid white ; 
+}
+.container h2{
+    margin: 2vh 0 0 2vw;
+}
+.smallbox{
+    width: 18vw;
+    height: 12vh;
+    background-color: white;
+    float: left;
+    margin: 3vh 0 0 2vw;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    display: flex;
+}
+.sb-IconSpace{
+    width: 4vw;
+    height: 8vh;
+    border-radius: 50%;
+    margin: 1.5vh 0 0 1vw;
+    
+    text-align: center;
+    font-size: 42px;
+}
+
+.sb-content{
+    width: 8vw;
+    height: 7vh;
+    text-align: right;
+    margin: 2vh 0 0 4vw;
+}
+.sb-content span{
+    color: grey;
+    font-weight: 100;
+    font-size: 13px;
+}
+.student{
+    background-color: rgba(255, 0, 0, 0.2);;
+    color: red;
+}
+.teacher{
+    background-color:  rgba(0, 255, 0, 0.2);
+    color: green;
+}
+.parents{
+    background-color: rgba(0, 0, 255, 0.2);
+    color: blue;
+}
+.earning{
+    background-color: #fed8b9;
+    color: orange;
+}
+.earning-graph{
+    width: 38vw;
+    height: 60vh;
+    background-color: white;
+    margin: 2vh 0 0 2vw;
+    float: left;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    
+}
+.expense-graph{
+    width: 18vw;
+    height: 60vh;
+    margin: 2vh 0 0 2vw;
+    background-color: white;
+    float: left;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    overflow-y: hidden;
+}
+.student-chart{
+    width: 18vw;
+    height: 60vh;
+    margin: 17vh 0 0 62vw;
+    background-color: white;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.graph h3{
+    margin: 1vh 1vw;
+}
+.graph-space1{
+    width: 18vw;
+    height: 55vh;
+    
+}
+.graph-space{
+    width: 38vw;
+    height: 55vh;
+    
+}
+.medium-box{
+    width: 24.7vw;
+    height: 60vh;
+    background-color: white;
+    float: left;
+    margin: 2.5vh 0 0 2vw;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.medium-box img{
+    width: 22vw;
+    height: 40vh;
+    margin: 0 0 0 1.5vw;
+    
+}
+.event-calendar:hover{
+    width: 50vw;
+    height: 70vh;
+    transition: 1s;
+    text-align: center;
+
+    .calendar{
+        width: 45vw;
+        height: 55vh;
+    }
+    
+}
+.event-calendar h4{
+    margin: 0 0 0 1vw;
+}
+
+.medium-box h3{
+    margin: 1vh 1vw;
+}
+.traffic-table{
+    width: 24.7vw;
+    height: 40vh;
+}
+.row{
+    width: 24vw;
+    height: 5vh;
+    margin:2vh 0 0  0vw;
+    border-bottom: 1px solid grey;
+}
+.row span{
+    margin: 10vh 1vw 0 2vw;
+}
+.facebook{
+    background: rgb(231,240,8);
+background: linear-gradient(90deg, rgba(231,240,8,1) 36%, rgba(240,128,8,1) 83%);}
+.twitter{
+    background: rgb(200,240,8);
+background: linear-gradient(90deg, rgba(200,240,8,1) 37%, rgba(36,240,8,1) 83%);}
+.google{
+    background: rgb(42,8,240);
+    background: linear-gradient(90deg, rgba(42,8,240,1) 24%, rgba(240,8,184,1) 74%);}
+.linkedin{
+    background: rgb(8,36,240);
+    background: linear-gradient(90deg, rgba(8,36,240,1) 29%, rgba(8,176,240,1) 79%);}
+
+.social-media h6{
+  margin: 3vh 0 2vh 5vw;
+  color: white;
+  font-weight: 400;
+  font-size: 15px;
+}
+.date-box{
+    width: 12vw;
+    height: 7vh;
+    border-radius: 18px;
+    margin: 3vh 0 1vh 2vw;
+    text-align: center;
+}
+.date-box p{
+    margin-top: 2vh;
+}
+.notice{
+    width: 16vw;
+    height: 5.5vh;
+    margin: 1vh 0 0 2vw;
+
+}
+.notice h6{
+    color: grey;
+}
+.Uniques-visitor{
+    width: 12vw;
+    height: 6vh;
+   
+    margin: 0 0 0 1vw;
+}
+.Uniques-visitor h2{
+    margin: 0 0 0 0;
+}
+.Uniques-visitor p{
+    color: grey;
+    font-weight: 200;
+    font-size: 12px;
+}
+.traffic-gradient{
+    width: 20vw;
+    height: 1.5vh;
+    border-radius: 20px;
+    margin: 2vh 0 2vh 2vw;
+    background: rgb(8,98,240);
+background: linear-gradient(90deg, rgba(8,98,240,1) 20%, rgba(201,47,192,1) 22%, rgba(240,128,8,1) 76%, rgba(36,240,8,1) 81%);
+
+}
+.dot{
+    width: 10px;
+    height: 0px;
+    border-radius: 50%;
+    
+}
